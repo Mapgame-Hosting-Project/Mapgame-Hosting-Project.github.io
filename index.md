@@ -1,4 +1,4 @@
-# Mapgame Hosting Project
+# Mapgame Hosting Project (MHP)
 
 ### The Mapgame Hosting Project aims to simplify the creation and management of [mapgames](https://mapgame.fandom.com/wiki/Map_Game_Rules).
 
