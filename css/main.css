@@ -1,16 +1,54 @@
 html {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
-button {
-    transition-duration: 0.4s;
-    background-color: white;
-    border: 2px solid green;
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+    position: fixed;
+}
+
+#header-inner {
+    width: auto;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    height: 43px;
+}
+
+header li {
+    float: left;
+    vertical-align: text-bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    display: block;
+    padding: 8px;
     font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
-button:hover {
-    background-color: green;
-    color: white;
-    cursor: pointer;
+a:hover {
+    text-decoration: underline;
+}
+
+#main-container {
+    padding-top: 43px;
+    margin-left: 15px;
 }
